@@ -1,9 +1,9 @@
 Mavtec::Application.routes.draw do
   
-  HighVoltage.configure do |config|
-    config.home_page = 'home'
-  end
-  
+  # root :to => 'high_voltage/pages#show', id: 'home' 
+    
+  get 'pages/about' => 'high_voltage/pages#show', id: 'about'
+   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

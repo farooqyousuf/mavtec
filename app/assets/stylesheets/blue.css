@@ -19,10 +19,10 @@ a.read-more:hover {
 /*Sliders
 ------------------------------------*/
 /*Main Parallax Sldier*/
-.da-slide h2 i {
+/*.da-slide h2 i {
 	background:url(../../plugins/parallax-slider/img/bg-heading-blue.png) repeat;
 }
-
+*/
 /*Sequence Parallax Sldier*/
 .sequence-inner {
   background: -webkit-gradient(linear, 0 0, 0 bottom, from(#fff), to(#deeffc));
@@ -91,10 +91,10 @@ a.read-more:hover {
 }
 
 .bx-wrapper .bx-prev {
-	background-image: url(../../plugins/bxslider/images/controls-blue.png);
+	background-image: url(../assets/controls-blue.png);
 }
 .bx-wrapper .bx-next {
-	background-image: url(../../plugins/bxslider/images/controls-blue.png);
+	background-image: url(../assets/controls-blue.png);
 }
 
 /*Typography
